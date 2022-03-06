@@ -1,0 +1,81 @@
+body{
+	background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+}
+
+.navbar, .submenu, .dropdown-menu{
+	background-color: black;
+}
+
+.subMenu a{
+	color: white;
+}
+
+header{
+	border-bottom-style: solid;
+	border-bottom-color:#E3D300;
+	display: flex;
+}
+
+section, article{
+	padding: 2%;
+}
+
+h1{
+	text-align: center;
+}
+
+video, img{
+	max-width: 100%;
+}
+
+footer{
+	background-color: black;
+	padding: 1%;
+	border-top-style: solid;
+	border-top-color:#E3D300;
+	margin-top:2%;
+}
+
+.carouselExampleInterval{
+	margin: 2%;
+}
+
+.img-thumbnail{
+	padding: 0;
+	margin: 5%;
+}
+
+.temporada{
+	border-style: solid;
+	border-color:#E3D300;
+	margin: 2%;
+	padding: 2%;
+}
+
+.parrafo{
+	border-right-style: solid;
+	border-right-color: #E3D300;
+	padding: 1%;
+	margin: 2% 0;
+}
+
+.centro{
+	text-align: center;
+}
+
+.separacion{
+	border-bottom-style: solid;
+	border-bottom-color: #E3D300;
+	padding: 1%;
+	margin: 2% 0;
+}
+
+.fliascuadro{
+	padding: 2%;
+}
+
+#descriptionResult{
+	size: 1em;
+}

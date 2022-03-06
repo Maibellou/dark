@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="lib/jquery-3.3.1.slim.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="funciones.js"></script>
+</head>
+<body class="animated fadeIn">
+    <header class="justify-content-center">
+        <nav class="navbar navbar-dark navbar-expand-md justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-fluid" src="imagenes/logo.jpg" alt="Logo">
+            </a>
+            <button class="navbar-toggler border border-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Familias</a>
+                        <div class="dropdown-menu subMenu text-center" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="familias/index.html">Árbol Familiar</a>
+                            <a class="dropdown-item" href="familias/kahnwald.html">Kahnwald</a>
+                            <a class="dropdown-item" href="familias/nielsen.html">Nielsen</a>
+                            <a class="dropdown-item" href="familias/tiedemann.html">Tiedemann</a>
+                            <a class="dropdown-item" href="familias/doppler.html">Doppler</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Capítulos</a>
+                        <div class="dropdown-menu subMenu text-center" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="capitulos/index.html" onclick="spoiler()">Todas las Temporadas</a>
+                            <a class="dropdown-item" href="capitulos/temporadauno.html">Temporada 1</a>
+                            <a class="dropdown-item" href="capitulos/temporadados.html">Temporada 2</a>
+                            <a class="dropdown-item" href="capitulos/temporadatres.html">Temporada 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="juego/juego.html">Juego</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h1 class="centro">Contacto</h1>
+        <form class="container" action="mailto:camilamaibelromero@gmail.com" method="post" name="formulario" id="formulario">
+        <div class="form-group">
+          <label for="nombre">Nombre*</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="apellido">Apellido*</label>
+          <input type="text" class="form-control" id="apellido" name="apellido" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Mail:*</label>
+            <input type="email" class="form-control" id="email" name="email" value="" required>
+        </div>
+
+        <div class="form-group">
+            <div class="custom-control custom-radio-warning custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio" name="sexo" value="mujer">
+            <label class="custom-control-label" for="customRadio">Mujer</label>
+            </div>
+            <div class="custom-control custom-radio-warning custom-control-inline">
+                <input type="radio" class="custom-control-input" id="customRadio2" name="sexo" value="hombre">
+                <label class="custom-control-label" for="customRadio2">Hombre</label>
+            </div>
+            <div class="custom-control custom-radio-warning custom-control-inline">
+                <input type="radio" class="custom-control-input" id="customRadio3" name="sexo" value="no binario">
+                <label class="custom-control-label" for="customRadio3">No binarie</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <label for="comentario">Comentarios:*</label>
+          <textarea class="form-control" rows="5" id="comentario" required></textarea>
+        </div>
+
+        <input type="button" class="btn btn-warning" name="enviar" id="enviar" value="Enviar" onclick="validarFormulario()" />
+        </form><br>
+    </section>  
+    <footer class="d-flex justify-content-around pb-3">
+        <a class="text-white" href="#">Contacto</a>
+        <a class="text-white" href="acercade.html">Acerca De</a>
+    </footer>
+</body>
+</html>

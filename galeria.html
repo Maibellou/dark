@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="lib/jquery-3.3.1.slim.min.js"></script>
+    <script src="lib/popper.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="funciones.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="lib/lightbox/css/lightbox.min.css"> 
+</head>
+<body class="animated fadeIn">
+    <header class="justify-content-center">
+        <nav class="navbar navbar-dark navbar-expand-md justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagenes/logo.jpg" alt="Logo">
+            </a>
+            <button class="navbar-toggler border border-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Familias</a>
+                        <div class="dropdown-menu subMenu text-center" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="familias/index.html">Árbol Familiar</a>
+                            <a class="dropdown-item" href="familias/kahnwald.html">Kahnwald</a>
+                            <a class="dropdown-item" href="familias/nielsen.html">Nielsen</a>
+                            <a class="dropdown-item" href="familias/tiedemann.html">Tiedemann</a>
+                            <a class="dropdown-item" href="familias/doppler.html">Doppler</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Capítulos</a>
+                        <div class="dropdown-menu subMenu text-center" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="capitulos/index.html" onclick="spoiler()">Todas las Temporadas</a>
+                            <a class="dropdown-item" href="capitulos/temporadauno.html">Temporada 1</a>
+                            <a class="dropdown-item" href="capitulos/temporadados.html">Temporada 2</a>
+                            <a class="dropdown-item" href="capitulos/temporadatres.html">Temporada 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="juego/juego.html">Juego</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <section>
+            <h1>Galería de fotos</h1><br>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/1.jpg" data-lightbox="Jonas Kahnwald" data-title="Jonas Kahnwald">
+                    <img src="imagenes/1.jpg" alt="Jonas Kahnwald" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/2.jpg" data-lightbox="Cueva" data-title="Cueva">
+                    <img src="imagenes/2.jpg" alt="Cueva" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/3.jpg" data-lightbox="Martha Nielsen" data-title="Martha Nielsen">
+                    <img src="imagenes/3.jpg" alt="Martha Nielsen" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/4.jpg" data-lightbox="Ulrich y Hannah" data-title="Ulrich y Hannah">
+                    <img src="imagenes/4.jpg" alt="Ulrich y Hannah" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/5.jpg" data-lightbox="Ulrich y Hannah" data-title="Ulrich y Hannah">
+                    <img src="imagenes/5.jpg" alt="Ulrich y Hannah" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/6.jpg" data-lightbox="Bunker en 1986" data-title="Bunker en 1986">
+                    <img src="imagenes/6.jpg" alt="Bunker en 1986" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/7.jpg" data-lightbox="Helge en el bunker" data-title="Helge en el bunker">
+                    <img src="imagenes/7.jpg" alt="Helge en el bunker" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/8.jpg" data-lightbox="Jonas, Martha y Bartosz" data-title="Jonas, Martha y Bartosz">
+                    <img src="imagenes/8.jpg" alt="Jonas, Martha y Bartosz" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/9.jpg" data-lightbox="Ulrich, Katharina y Regina en 1986" data-title="Ulrich, Katharina y Regina en 1986">
+                    <img src="imagenes/9.jpg" alt="Ulrich, Katharina y Regina en 1986" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/10.jpg" data-lightbox="Regina y Alexander en 1986" data-title="Regina y Alexander en 1986">
+                    <img src="imagenes/10.jpg" alt="Regina y Alexander en 1986" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/11.jpg" data-lightbox="Jonas joven y Jonas adulto" data-title="Jonas joven y Jonas adulto">
+                    <img src="imagenes/11.jpg" alt="Jonas joven y Jonas adulto" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/12.jpg" data-lightbox="Árbol genealógico" data-title="Árbol genealógico">
+                    <img src="imagenes/12.jpg" alt="Árbol genealógico" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/13.jpg" data-lightbox="Jonas en el post-apocalipsis" data-title="Jonas en el post-apocalipsis">
+                    <img src="imagenes/13.jpg" alt="Jonas en el post-apocalipsis" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/14.jpg" data-lightbox="Martha de otra dimensión" data-title="Martha de otra dimensión">
+                    <img src="imagenes/14.jpg" alt="Martha de otra dimensión" class="img-thumbnail"></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/15.jpg" data-lightbox="Cementerio" data-title="Cementerio">
+                    <img src="imagenes/15.jpg" alt="Cementerio" class="img-thumbnail"></a>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a href="imagenes/16.jpg" data-lightbox="Domo" data-title="Domo">
+                    <img src="imagenes/16.jpg" alt="Domo" class="img-thumbnail"></a>
+                </div>
+            </div>
+        </section>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+    <footer class="d-flex justify-content-around pb-3">
+        <a class="text-white" href="contacto.html">Contacto</a>
+        <a class="text-white" href="acercade.html">Acerca De</a>
+    </footer>
+</body>
+</html>
